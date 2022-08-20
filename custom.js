@@ -1,6 +1,6 @@
 
 
-
+// Common Function for all Input Fields ( .value )
 
 function similarItemsExpenses(elementId) {
   const similarField = document.getElementById(elementId);
@@ -9,7 +9,7 @@ function similarItemsExpenses(elementId) {
   
   return similarFieldValue;
 }
-
+// Common Function for all Text Fields ( .innerText )
 function similarItemsExpensesTwo(elementId) {
   const similarField = document.getElementById(elementId);
   const similarFieldString = similarField.innerText;
